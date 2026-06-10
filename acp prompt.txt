@@ -1,0 +1,79 @@
+Prompt 1
+
+Prompt:
+How can I create a drawing area in C where shapes can be displayed?
+
+Response:
+I learned that a drawing area can be created using a two-dimensional character array. In my project, I used a canvas of 30 rows and 60 columns. Each position stores a character, and initially all positions are filled with '_' to represent an empty canvas.
+
+Prompt 2
+
+Prompt:
+How do I store information about different shapes in a single program?
+
+Response:
+I learned that structures are useful for storing related data together. I created an Object structure that stores the shape type, coordinates, dimensions, radius, and ID. This makes it easier to manage multiple shapes in the editor.
+
+Prompt 3
+
+Prompt:
+How can multiple shapes be managed at the same time?
+
+Response:
+I learned that arrays of structures can be used to store multiple objects. Every time a new shape is added, it is stored in the objects array. This allows the program to keep track of all shapes drawn on the canvas.
+
+Prompt 4
+
+Prompt:
+How can I assign a unique identity to every shape?
+
+Response:
+I learned that an auto-incrementing ID can be used. Every new object gets a unique ID using the nextID variable. This ID helps in modifying or deleting specific objects later.
+
+Prompt 5
+
+Prompt:
+How can a line be drawn in a text-based graphics editor?
+
+Response:
+I learned that horizontal and vertical lines can be drawn by repeatedly placing '*' characters between two points. The program checks whether the line is horizontal or vertical and fills the required positions on the canvas.
+
+Prompt 6
+
+Prompt:
+How can geometric shapes like rectangles, triangles, and circles be created in C?
+
+Response:
+I learned that loops can be used to draw shapes. Rectangles are created using nested loops, triangles are formed by increasing the number of stars in each row, and circles are drawn using the distance formula based on the radius.
+
+Prompt 7
+
+Prompt:
+Why is a redraw function needed in a graphics editor?
+
+Response:
+I learned that whenever an object is modified or deleted, the canvas must be redrawn. The redraw function clears the canvas and redraws every stored object so that the display remains correct.
+
+Prompt 8
+
+Prompt:
+How can an object be deleted from the editor?
+
+Response:
+I learned that deletion can be performed using the object's ID. The program searches for the object, removes it from the array, shifts the remaining objects, and then redraws the canvas to reflect the changes.
+
+Prompt 9
+
+Prompt:
+How can existing shapes be modified?
+
+Response:
+I learned that users can enter an object's ID and provide new values for its properties. The program updates the stored information and redraws the canvas so that the modified shape appears correctly.
+
+Prompt 10
+
+Prompt:
+What advanced C programming concepts did I learn from this project?
+
+Response:
+Through this project, I learned the use of structures, arrays, functions, loops, conditional statements, memory organization, and modular programming. I also understood how real-world applications manage objects and update graphical data dynamically.
